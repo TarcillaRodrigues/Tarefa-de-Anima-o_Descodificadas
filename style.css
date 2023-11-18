@@ -1,0 +1,46 @@
+*{
+   background-color: rgb(166, 115, 159);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+h1{
+    font-size: 4em;
+    display: flex;
+    padding-top: 1em;
+    text-align: center;
+    font-family: arial;
+    color: rgb(93, 12, 80);
+   justify-content: center;
+
+
+}
+
+h2{
+    font-size: 2em;
+    display: flex;
+    padding-top: 1em;
+    text-align: center;
+    font-family: arial;
+    color: rgb(155, 17, 132);
+   justify-content: center;
+
+
+}
+.coracao{
+    display:block;    
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    animation: pulso 1s infinite linear;
+}
+
+@keyframes pulso{
+    0% {transform: scale(0.9);}
+    100%{transform: scale(1.0);}
+
+}
